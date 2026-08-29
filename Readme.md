@@ -1,30 +1,84 @@
-<h1 align="center"> Challenge amigo secreto</h1>
-<p align="center">
-<img src="https://img.shields.io/badge/Estado-Completado-Completado">
-</p>
-<h1> Descripción </h1>
-<p> En el presente proyecto, se lleva a cabo la realización de un juego basado en el sorteo de un amigo secreto, donde los usuarios podrán agregar a sus amigos que se verán reflejados en una lista en la página, a través del boton de añadir, podran ingresar sus amigos a la lista, luego en el botón sortear podrán llevar a cabo el sorteo en el cual se elegirá a un amigo de manera al azar, también se presenta el botón de reinicio para cuando se haya realizado el sorteo, volver a realizarlo si así se desea. </p>
+# Challenge Amigo Secreto
 
-<h1> Funcionalidades </h1>
+Aplicación web desarrollada como parte del **Challenge de Amigo Secreto de Alura Latam**, cuyo objetivo es fortalecer conocimientos de lógica de programación y desarrollo web utilizando **HTML, CSS y JavaScript**.
 
-Agregar nombres: Los usuarios escribirán el nombre de un amigo en un campo de texto y lo agregarán a una lista visible al hacer clic en "Añadir"
- 
+La aplicación permite agregar participantes y realizar un sorteo aleatorio para seleccionar un amigo secreto.
 
-Validar entrada: Si el campo de texto está vacío, el programa mostrará una alerta pidiendo un nombre válido.
+## Funcionalidades
 
-Visualizar la lista: Los nombres ingresados aparecerán en una lista debajo del campo de entrada.
+- Agregar nombres de participantes.
+- Validar que el campo de entrada no esté vacío.
+- Visualizar la lista de participantes registrados.
+- Realizar un sorteo aleatorio.
+- Mostrar el resultado del sorteo.
+- Reiniciar el juego para realizar un nuevo sorteo.
 
-Sorteo aleatorio: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
+## Tecnologías utilizadas
 
-<h1> Como jugar </h1>
- 
- Ingresa el nombre de un amigo en el campo de entrada.
+- **HTML5** — Estructura de la aplicación.
+- **CSS3** — Diseño y estilos de la interfaz.
+- **JavaScript** — Lógica de programación, validaciones, manipulación del DOM y sorteo aleatorio.
+- **Git** — Control de versiones.
+- **GitHub** — Almacenamiento y gestión del repositorio.
 
+## 💻 Cómo ejecutar el proyecto
 
-* Haz clic en el botón para agregar el nombre a la lista.
+### 1. Clonar el repositorio
 
-* Repite el proceso para agregar más amigos.
+```bash
+git clone https://github.com/AlejvndroJ/juego-amigo-secreto.git
+```
 
-* Haz clic en el botón de sorteo para elegir un amigo secreto aleatoriamente.
+### 2. Acceder al directorio
 
-* Si deseas reiniciar el juego, haz clic en el botón de reinicio.
+```bash
+cd juego-amigo-secreto
+```
+
+### 3. Ejecutar el proyecto
+
+Abre el archivo `index.html` directamente en tu navegador.
+
+También puedes utilizar **Live Server** desde Visual Studio Code para ejecutar el proyecto durante el desarrollo.
+
+## 📂 Estructura del proyecto
+
+```text
+juego-amigo-secreto/
+│
+├── assets/
+│   └── ...
+│
+├── app.js
+├── index.html
+├── style.css
+└── README.md
+```
+
+## 📚 Aprendizajes
+
+Durante el desarrollo de este proyecto fortalecí mis conocimientos en:
+
+- Lógica de programación con JavaScript.
+- Declaración y manipulación de variables.
+- Uso de arrays para almacenar información.
+- Implementación de funciones.
+- Estructuras condicionales y ciclos.
+- Generación de valores aleatorios con `Math.random()` y `Math.floor()`.
+- Manipulación del DOM mediante JavaScript.
+- Creación y modificación dinámica de elementos HTML.
+- Validación de datos ingresados por el usuario.
+- Manejo del estado de una aplicación mediante arrays.
+- Organización de proyectos utilizando HTML, CSS y JavaScript.
+- Uso de Git y GitHub para el control de versiones.
+
+## 🎓 Challenge de Alura Latam
+
+Este proyecto fue desarrollado como parte del **Challenge de Amigo Secreto de Alura Latam**, una actividad práctica enfocada en fortalecer la lógica de programación y la resolución de problemas mediante el desarrollo de una aplicación web.
+
+## 👨‍💻 Autor
+
+**Luis Alejandro Jiménez Zambrano**
+
+- GitHub: [@AlejvndroJ](https://github.com/AlejvndroJ)
+- LinkedIn: [Alejandro Jiménez](https://www.linkedin.com/in/alejandrojimenez09)
